@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <style>
+        * {
+            outline: 1px #EEE solid;
+        }
+    </style>
+    
+</head>
+
+<body>
+
+<h1>Bootstrap Demo</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3 col-sm-6"> 1 </div>
+        <div class="col-sm-3 col-sm-6"> 2 </div>
+        <div class="col-sm-3 col-sm-6"> 3 </div>
+        <div class="col-sm-3 col-sm-6"> 4 </div>
+    </div>
+</div>
+
+<h1>Glyphicons</h1>
+
+<span class="glyphicon glyphicon-envelope"></span> email@gmail.com
+
+
+<h1>Collapsibles</h1>
+    <button data-toggle="collapse" data-target="#hello">Click Me</button>
+    <div id="hello" class="collapse">
+            Hello!
+    </div>
+
+<h1>Navbars</h1>
+    <div class="navbar navbar-inverse" style="color:white;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+                <span class="glyphicon glyphicon-menu-hamburger"  ></span>
+            </button>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>    
+    </div>
+
+
+</body>
+</html>
